@@ -67,10 +67,13 @@ Seven classification models were evaluated:
 4. Sleep apnea, chest pain, high BP
 
 ## Requirements
-
+Install project dependencies. Run
 ```
 pip install -r requirements.txt
 ```
+
+Alternatively, the notebook includes `%pip install -r requirements.txt` in the first cell. By default, it is commented,
+but you can uncomment it to import the dependencies when you run the notebook.
 
 Key dependencies: pandas, numpy, scikit-learn, catboost, xgboost, matplotlib, seaborn
 
